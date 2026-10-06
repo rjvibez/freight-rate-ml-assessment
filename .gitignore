@@ -1,0 +1,9 @@
+@"
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+"@ | Out-File -Encoding utf8 .gitignore
+catboost_info/
